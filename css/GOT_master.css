@@ -99,18 +99,26 @@ main {
 /* add styles here for lightbox and video */
 .lightbox {
 	position: absolute;
-	text-align: center;
-	width: 100%;
 	top: 0;
-	background-color: rgba(0, 0, 0, 0.9);
 	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: rgba(0,0,0,0.8);
 	display: none;
 }
 
-.lightbox-on {
+.open-LightBox {
 	display: block;
 }
 
+.closelightbox{
+	position: absolute;
+	color: white;
+	right: 12px;
+	top: 12px;
+	cursor: pointer;
+	font-size: 2em;
+}
 
 video {
 	width: 80%;
@@ -118,3 +126,18 @@ video {
 	border: thin solid #949393;
 }
 
+.namehouse{
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+	margin-top: 60px;
+}
+
+.infohouse{
+	color: white;
+	font-size: 1.5rem;
+	margin: 20px auto 0 auto;
+	width: 70%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	text-align: left;
+}
